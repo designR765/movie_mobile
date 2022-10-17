@@ -165,4 +165,49 @@ h2 {
         margin-bottom: 20px;
     }
 
+    .class-format p:last-child {
+        margin-bottom: 0;
+    }
+
+    .we-will-know {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .we-will-know ul {
+       margin-left: 10px;
+    }
+
+    .we-will-know ul li {
+        margin-bottom: 6px;
+    }
+
+    .course-programme {
+        width: 75%;
+        margin-top: 40px;
+    }
+
+    .programme-block {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+        width: 186px;
+        height: 152px;
+        margin: 40px auto 20px;
+    }
+
+    .programme-block h3 {
+        font-size: 14px;
+        margin-left: 8px;
+    }
+
+    .programme-block p {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .programme-block p:last-child {
+        margin-top: 9px;
+    }
+
+
 }
