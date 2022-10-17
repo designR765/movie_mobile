@@ -25,7 +25,7 @@ h1 {
 h2 {
     font-size: 26px;
     font-family: 'Roboto Slab', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -38,7 +38,6 @@ h2 {
         width: 100%;
         padding-top: 36px;
         padding-left: 36px;
-        padding-right: 40px;
     }
 
     .header {
@@ -77,7 +76,7 @@ h2 {
         text-decoration: none;
     }
 
-    .navigaion a:hover {
+    .navigaion ul li:hover a {
         color: blue;
         text-decoration: underline;
     }
@@ -114,7 +113,56 @@ h2 {
     .about {
         font-size: 12px;
         line-height: 18px;
-        width: 308px;
+        width: 80%;
         margin-bottom: 20px;
     }
+
+    .operator {
+        width: 170px;
+        height: 162px;
+        margin-left: 50px;
+    }
+
+    .trainings {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-top: 20px;
+    }
+
+    .trainings p {
+        width: 35%;
+        margin-right: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .trainings p:last-child {
+        margin-top: 10px;
+    }
+
+    .trainings p span {
+        display: block;
+        line-height: 13px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .class-format {
+        margin-top: 40px;
+    }
+
+    .class-format h4 {
+        color: #1e4681;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+
+    .class-format p {
+        font-size: px;
+        line-height: 13px;
+        margin-bottom: 20px;
+    }
+
 }
