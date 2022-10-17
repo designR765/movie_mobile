@@ -37,11 +37,11 @@ h2 {
     .wrapper {
         width: 100%;
         padding-top: 36px;
-        padding-left: 36px;
     }
 
     .header {
         width: 100%;
+        padding-left: 36px;
     }
 
     .logo {
@@ -83,6 +83,7 @@ h2 {
 
     .main {
         margin-top: 20px;
+        padding-left: 36px;
     }
 
     .producer {
@@ -175,7 +176,7 @@ h2 {
     }
 
     .we-will-know ul {
-       margin-left: 10px;
+        margin-left: 10px;
     }
 
     .we-will-know ul li {
@@ -183,7 +184,7 @@ h2 {
     }
 
     .course-programme {
-        width: 75%;
+        width: 100%;
         margin-top: 40px;
     }
 
@@ -204,5 +205,11 @@ h2 {
         font-size: 12px;
         margin-left: 8px;
         margin-top: 12px;
+    }
+
+    .course-finished {
+        width: 100%;
+        background-color: #efefef;
+        margin-top: 40px;
     }
 }
