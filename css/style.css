@@ -323,7 +323,7 @@ h2 {
 }
 
 /***TAB **/
-@media(max-width: 991px) and (min-width: 320px) {
+@media(max-width: 1279px) and (min-width: 992px) {
     .wrapper {
         width: 100%;
         padding-top: 36px;
