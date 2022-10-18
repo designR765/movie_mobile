@@ -271,7 +271,7 @@ h2 {
         margin-bottom: 20px;
     }
 
-   .cost span {
+    .cost span {
         font-size: 37px;
         display: block;
         margin-top: 10px;
@@ -279,7 +279,7 @@ h2 {
 
     .levels {
         display: flex;
-        flex-wrap:  wrap;
+        flex-wrap: wrap;
         margin-top: 35px;
     }
 
@@ -301,7 +301,7 @@ h2 {
     }
 
     .footer ul {
-        list-style-type:  none;
+        list-style-type: none;
         margin-bottom: 20px;
     }
 
@@ -311,7 +311,297 @@ h2 {
         margin-right: 15px;
     }
 
-    .phone, .mail {
+    .phone,
+    .mail {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .copyright {
+        margin-top: 20px;
+    }
+}
+
+/***TAB **/
+@media(max-width: 991px) and (min-width: 320px) {
+    .wrapper {
+        width: 100%;
+        padding-top: 36px;
+    }
+
+    .header {
+        width: 100%;
+        padding-left: 36px;
+    }
+
+    .logo {
+        width: 52px;
+        height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .navigation {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navigation li {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation img {
+        display: block;
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .navigation li:first-child img {
+        margin-left: 0;
+    }
+
+    .navigation a {
+        color: black;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    .navigaion ul li:hover a {
+        color: blue;
+        text-decoration: underline;
+    }
+
+    .main {
+        margin-top: 20px;
+        padding-left: 36px;
+    }
+
+    .producer {
+        display: block;
+        margin: 10px 0 25px 120px;
+        width: 142px;
+        height: 174px;
+    }
+
+    .author-text {
+        box-sizing: border-box;
+        background-color: #1e4681;
+        color: white;
+        line-height: 14px;
+        margin-bottom: 50px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 11px;
+        padding: 12px;
+        width: 225px;
+        height: 93px;
+    }
+
+    .author-text span {
+        display: block;
+        text-align: right;
+    }
+
+    .about {
+        font-size: 12px;
+        line-height: 18px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .operator {
+        width: 170px;
+        height: 162px;
+        margin-left: 50px;
+    }
+
+    .trainings {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-top: 20px;
+    }
+
+    .trainings p {
+        width: 35%;
+        margin-right: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .trainings p:last-child {
+        margin-top: 10px;
+    }
+
+    .trainings p span {
+        display: block;
+        line-height: 13px;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .class-format {
+        margin-top: 40px;
+    }
+
+    .class-format h4 {
+        color: #1e4681;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 7px;
+    }
+
+    .class-format p {
+        font-size: px;
+        line-height: 13px;
+        margin-bottom: 20px;
+    }
+
+    .class-format p:last-child {
+        margin-bottom: 0;
+    }
+
+    .we-will-know {
+        width: 70%;
+        margin-top: 40px;
+    }
+
+    .we-will-know ul {
+        margin-left: 10px;
+    }
+
+    .we-will-know ul li {
+        margin-bottom: 6px;
+    }
+
+    .course-programme {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .programme-block {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 12px;
+        width: 186px;
+        height: 152px;
+        margin: 40px auto 20px;
+    }
+
+    .programme-block h3 {
+        font-size: 14px;
+        margin-left: 8px;
+    }
+
+    .programme-block p {
+        font-size: 12px;
+        margin-left: 8px;
+        margin-top: 12px;
+    }
+
+    .course-finished {
+        width: 100%;
+        background-color: #efefef;
+        margin-top: 40px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .course-finished h2 {
+        margin-left: 15px;
+    }
+
+    .author {
+        background-color: white;
+        width: 90%;
+        height: 40%;
+        margin: auto;
+        border-radius: 13px;
+    }
+
+    .author p {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .tatyana {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .tatyana p {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .tatyana img {
+        display: block;
+    }
+
+    .author-photo {
+        display: inline- block;
+        width: 80px;
+        height: 84px;
+        margin-right: 15px;
+    }
+
+    .blue-facebook {
+        margin-top: 15px;
+    }
+
+    .course-start {
+        background-color: #9dc9c8;
+        width: 100%;
+        padding: 60px 30px;
+    }
+
+    .course-start h2 {
+        margin-bottom: 20px;
+    }
+
+    .cost span {
+        font-size: 37px;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .levels {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+
+    .levels p {
+        width: 40%;
+        line-height: 10px;
+    }
+
+    .levels span {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .footer {
+        color: white;
+        width: 100%;
+        padding: 15px 30px 30px;
+    }
+
+    .footer ul {
+        list-style-type: none;
+        margin-bottom: 20px;
+    }
+
+    .footer ul li {
+        display: inline-block;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+
+    .phone,
+    .mail {
         display: inline-block;
         margin-right: 5px;
     }
