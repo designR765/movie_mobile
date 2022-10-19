@@ -116,6 +116,10 @@ h2 {
         text-align: right;
     }
 
+    .about-course {
+        position: relative;
+    }
+
     .about {
         font-size: 12px;
         line-height: 18px;
@@ -124,22 +128,29 @@ h2 {
     }
 
     .operator {
-        position: relative;
+        position: absolute;
         width: 170px;
         height: 162px;
         left: 50%;
-        bottom: 250px;
+        bottom: 50px
     }
 
     .trainings {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: left;
-        margin-top: 20px;
+        justify-content: space-around;
+        align-items: center;
+        width: 75%;
+    }
+
+    .montajer {
+        display: block;
+        margin-right: 15px;
+        width: 135px;
+        height: 130px;
     }
 
     .trainings p {
-        width: 35%;
+        width: 40%;
         margin-right: 15px;
         font-size: 12px;
         font-weight: bold;
@@ -156,19 +167,20 @@ h2 {
         font-weight: normal;
     }
 
+
     .class-format {
         margin-top: 40px;
     }
 
     .class-format h4 {
         color: #1e4681;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: bold;
         margin-bottom: 7px;
     }
 
     .class-format p {
-        font-size: px;
+        font-size: 12px;
         line-height: 13px;
         margin-bottom: 20px;
     }
