@@ -33,13 +33,14 @@ h2 {
 }
 
 
-/*** COMP **/
 @media (min-width: 1280) {
     .wrapper {
         width: 100%;
         height: auto;
         padding-top: 22px;
     }
+
+    /*** HEADER **/
 
     .header {
         width: 75%;
@@ -82,6 +83,9 @@ h2 {
         color: blue;
         text-decoration: underline;
     }
+
+    
+    /*** MAIN **/
 
     .main {
         width: 75%;
@@ -331,6 +335,9 @@ h2 {
         margin-bottom: 5px;
         font-size: 12px;
     }
+
+    
+    /*** FOOTER **/
 
     .footer {
         position: relative;
