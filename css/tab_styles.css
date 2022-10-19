@@ -6,35 +6,30 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: 400;
-}
-
-h1 {
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 46px;
-    line-height: 47px;
-    margin-bottom: 15px;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 32px;
-    line-height: 42px;
-    font-family: 'Roboto Slab', sans-serif;
-    margin-bottom: 25px;
-}
-
-.footer {
-    background-color: black;
-}
-
-
 /***TAB **/
 @media(max-width: 1279px) and (min-width: 992px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+    
+    h1 {
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 46px;
+        line-height: 47px;
+        margin-bottom: 15px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 32px;
+        line-height: 42px;
+        font-family: 'Roboto Slab', sans-serif;
+        margin-bottom: 25px;
+    }
+
     .wrapper {
         width: 100%;
         height: auto;
@@ -337,6 +332,7 @@ h2 {
         color: white;
         width: 100%;
         padding: 15px 30px 30px;
+        background: black;
     }
 
     .footer div:nth-child(2) {
