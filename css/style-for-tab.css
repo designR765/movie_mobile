@@ -23,7 +23,7 @@ h1 {
 
 h2 {
     font-size: 32px;
-    line-height: 32px;
+    line-height: 42px;
     font-family: 'Roboto Slab', sans-serif;
     margin-bottom: 25px;
 }
@@ -137,7 +137,7 @@ h2 {
 
     .trainings {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         width: 75%;
     }
@@ -150,7 +150,7 @@ h2 {
     }
 
     .trainings p {
-        width: 40%;
+        width: 20%;
         margin-right: 15px;
         font-size: 12px;
         font-weight: bold;
@@ -169,7 +169,16 @@ h2 {
 
 
     .class-format {
-        margin-top: 40px;
+        margin-top: 80px;
+    }
+
+    .class-format-blocks{
+        display: flex;
+        justify-content: left;
+    }
+
+    .class-format-blocks div {
+        width: 30%;
     }
 
     .class-format h4 {
@@ -180,7 +189,7 @@ h2 {
     }
 
     .class-format p {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 13px;
         margin-bottom: 20px;
     }
@@ -191,7 +200,7 @@ h2 {
 
     .we-will-know {
         width: 70%;
-        margin-top: 40px;
+        margin-top: 70px;
     }
 
     .we-will-know ul {
@@ -199,12 +208,21 @@ h2 {
     }
 
     .we-will-know ul li {
-        margin-bottom: 6px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        line-height: 19px;
     }
 
     .course-programme {
         width: 100%;
-        margin-top: 40px;
+        margin-top: 100px;
+    }
+
+    .programme-block-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 75%;
+
     }
 
     .programme-block {
@@ -212,7 +230,7 @@ h2 {
         border-radius: 12px;
         width: 186px;
         height: 152px;
-        margin: 40px auto 20px;
+        margin: 10px;
     }
 
     .programme-block h3 {
@@ -230,8 +248,7 @@ h2 {
         width: 100%;
         background-color: #efefef;
         margin-top: 40px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding: 50px;
     }
 
     .course-finished h2 {
@@ -240,14 +257,13 @@ h2 {
 
     .author {
         background-color: white;
-        width: 90%;
-        height: 40%;
-        margin: auto;
+        width: 30%;
         border-radius: 13px;
     }
 
     .author p {
-        font-size: 10px;
+        font-size: 12px;
+        line-height: 17px;
         padding: 15px;
     }
 
