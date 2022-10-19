@@ -37,6 +37,7 @@ h2 {
 @media(max-width: 1279px) and (min-width: 992px) {
     .wrapper {
         width: 100%;
+        height: auto;
         padding-top: 22px;
     }
 
@@ -248,7 +249,7 @@ h2 {
         width: 100%;
         background-color: #efefef;
         margin-top: 40px;
-        padding: 50px;
+        padding: 40px 70px;
     }
 
     .course-finished h2 {
@@ -257,7 +258,7 @@ h2 {
 
     .author {
         background-color: white;
-        width: 30%;
+        width: 35%;
         border-radius: 13px;
     }
 
@@ -315,11 +316,14 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         margin-top: 35px;
+        width: 50%;
     }
 
     .levels p {
         width: 40%;
-        line-height: 10px;
+        font-size: 10px;
+        line-height: 14px;
+        margin-right: 20px;
     }
 
     .levels span {
@@ -329,9 +333,16 @@ h2 {
     }
 
     .footer {
+        position: relative;
         color: white;
         width: 100%;
         padding: 15px 30px 30px;
+    }
+
+    .footer div:nth-child(2) {
+        position: absolute;
+        left: 75%;
+        bottom: 60%;
     }
 
     .footer ul {
@@ -345,13 +356,16 @@ h2 {
         margin-right: 15px;
     }
 
-    .phone,
-    .mail {
+    .phone,.mail {
         display: inline-block;
         margin-right: 5px;
     }
 
+    .mail {
+        margin-top: 10px;
+    }
+
     .copyright {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 }
