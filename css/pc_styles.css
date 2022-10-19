@@ -15,8 +15,8 @@ body {
 
 h1 {
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 46px;
-    line-height: 47px;
+    font-size: 80px;
+    line-height: 82px;
     margin-bottom: 15px;
     font-weight: 700;
 }
@@ -33,23 +33,24 @@ h2 {
 }
 
 
-@media (min-width: 1280) {
+@media (min-width: 1280px) {
     .wrapper {
         width: 100%;
-        height: auto;
+        height: 100%;
+        margin: auto;
         padding-top: 22px;
     }
 
     /*** HEADER **/
 
     .header {
-        width: 75%;
+        width: 65%;
         margin: auto;
     }
 
     .logo {
-        width: 64px;
-        height: 42px;
+        width: 112px;
+        height: 66px;
         margin-bottom: 40px;
     }
 
@@ -65,8 +66,10 @@ h2 {
 
     .navigation img {
         display: block;
-        margin-right: 5px;
+        margin-right: 10px;
         margin-left: 10px;
+        width: 20px;
+        height: 21px;
     }
 
     .navigation li:first-child img {
@@ -84,21 +87,26 @@ h2 {
         text-decoration: underline;
     }
 
-    
+
     /*** MAIN **/
 
     .main {
-        width: 75%;
+        width: 65%;
         margin: 20px auto;
     }
 
     .producer {
         display: block;
+        position: absolute;
+        ;
+        bottom: -150px;
+        left: 60%;
+        width: 304px;
+        height: 356px;
+    }
+
+    .producer-for-tab {
         position: relative;
-        bottom: 150px;
-        left: 50%;
-        width: 176px;
-        height: 206px;
     }
 
 
@@ -107,7 +115,7 @@ h2 {
         background-color: #1e4681;
         color: white;
         line-height: 18px;
-        margin: 0 20% 50px;
+        margin: 50px 20% 50px;
         font-family: 'Roboto Slab', sans-serif;
         font-size: 14px;
         padding: 12px;
@@ -134,15 +142,16 @@ h2 {
 
     .operator {
         position: absolute;
-        width: 170px;
-        height: 162px;
-        left: 50%;
-        bottom: 50px
+        width: 314px;
+        height: 315px;
+        left: 60%;
+        top: 5px;
     }
 
     .trainings {
         display: flex;
         justify-content: space-between;
+        margin-top: 120px;
         align-items: center;
         width: 75%;
     }
@@ -157,29 +166,27 @@ h2 {
     .trainings p {
         width: 20%;
         margin-right: 15px;
-        font-size: 12px;
+        font-size: 25px;
         font-weight: bold;
-    }
-
-    .trainings p:last-child {
-        margin-top: 10px;
     }
 
     .trainings p span {
         display: block;
-        line-height: 13px;
-        font-size: 10px;
+        line-height: 17px;
+        margin-top: 15px;
+        font-size: 15px;
         font-weight: normal;
     }
 
 
     .class-format {
-        margin-top: 80px;
+        margin-top: 120px;
     }
 
-    .class-format-blocks{
+    .class-format-blocks {
         display: flex;
         justify-content: left;
+        margin-top: 50px;
     }
 
     .class-format-blocks div {
@@ -205,7 +212,7 @@ h2 {
 
     .we-will-know {
         width: 70%;
-        margin-top: 70px;
+        margin-top: 120px;
     }
 
     .we-will-know ul {
@@ -336,7 +343,7 @@ h2 {
         font-size: 12px;
     }
 
-    
+
     /*** FOOTER **/
 
     .footer {
@@ -363,7 +370,8 @@ h2 {
         margin-right: 15px;
     }
 
-    .phone,.mail {
+    .phone,
+    .mail {
         display: inline-block;
         margin-right: 5px;
     }
